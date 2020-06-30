@@ -1,0 +1,13 @@
+---
+date: 01-07-2020
+layout: default
+---
+
+<div id="text" style="font-size: 30px;color: #eee;"></div>
+
+<script>
+    var array = new Uint32Array(1);
+    window.crypto.getRandomValues(array);
+
+    document.querySelector("#text").innerText = array[0]
+</script>
