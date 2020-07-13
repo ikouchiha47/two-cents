@@ -1,5 +1,6 @@
 ---
 date: 19-04-2020
+layout: default
 ---
 
 # The WhatsApp privacy problem.
